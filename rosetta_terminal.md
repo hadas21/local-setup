@@ -43,9 +43,15 @@ If you see `arm64` in response, continue with the steps in the section below.
 - Run the following command in your terminal:
 
 ```arch
-arch #=&gt; arm64
-env &#x2F;usr&#x2F;bin&#x2F;arch -x86_64 &#x2F;bin&#x2F;zsh --login
-arch #=&gt; i386
+env /usr/bin/arch -arm64 /bin/zsh --login
+arch
+//arm64 
+
+
+env /usr/bin/arch -x86_64 /bin/zsh --login
+arch
+//x86_64
+  
 ```
 - Then, run: 
 
